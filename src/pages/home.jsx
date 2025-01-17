@@ -404,7 +404,7 @@ const Home = () => {
                       <IoChevronBack className="stroke-black text-xl" />
                     </button>
                   </div>
-                  <div className="flex bg-green-300 items-center ml-2 w text-xl font-semibold ">
+                  <div className="flex items-center ml-2 w text-xl font-semibold ">
                     {/* //poto profile */}
                     <div
                       className="wadah-profile"

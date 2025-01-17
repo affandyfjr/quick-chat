@@ -18,7 +18,7 @@ import "aos/dist/aos.css";
 import Slide_scrool2 from "../components/Slide_scrool2";
 import Navbar from "../components/Navbar_3";
 import Komponen_scroll_1 from "../components/Komponen_scrool_1";
-import Komp_slider_3 from "../components/komp_slider_3";
+import Komp_slider_3 from "../components/Komp_slider_3";
 import Button from "../components/Button";
 import Gambar_atas from "../components/Gambar_atas";
 
@@ -257,25 +257,31 @@ const LP = () => {
       <div className="footer bg-putih">
         <div className="atas flex px-10 py-16 ">
           <div className="atas-kiri flex gap-3 items-center w-[50%]">
-            <IoLogoLinkedin className="size-8 fill-black"/>
-            <IoLogoFacebook className="size-8 fill-black"/>
-            <IoLogoGithub className="size-8 fill-black"/>
+            <IoLogoLinkedin className="size-8 fill-black" />
+            <IoLogoFacebook className="size-8 fill-black" />
+            <IoLogoGithub className="size-8 fill-black" />
           </div>
           <div className="atas-kanan w-[50%] flex justify-evenly gap-3 text-black">
             <ul>
-              <li><b>Home</b></li>
+              <li>
+                <b>Home</b>
+              </li>
               <li>about us</li>
               <li>blog</li>
               <li>category</li>
             </ul>
             <ul>
-              <li><b>Service</b></li>
+              <li>
+                <b>Service</b>
+              </li>
               <li>feature</li>
               <li>perform text</li>
               <li>performance</li>
             </ul>
             <ul>
-              <li><b>Contact Us</b></li>
+              <li>
+                <b>Contact Us</b>
+              </li>
               <li>+100052415</li>
               <li>kawwula@gmail.com</li>
             </ul>
